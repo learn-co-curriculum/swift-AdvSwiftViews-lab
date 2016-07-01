@@ -66,8 +66,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="February Weeks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SD-Oi-RAv">
-                                <rect key="frame" x="112" y="321" width="151" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weeks in February" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SD-Oi-RAv">
+                                <rect key="frame" x="101" y="321" width="173" height="26"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -82,7 +82,7 @@
                                             <constraint firstAttribute="width" constant="50" id="rbE-Vz-fS8"/>
                                             <constraint firstAttribute="height" constant="50" id="z0Z-F9-RNO"/>
                                         </constraints>
-                                        <state key="normal" title="1"/>
+                                        <state key="normal" title="1st"/>
                                         <connections>
                                             <action selector="weekButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JPU-Qa-QgP"/>
                                         </connections>
@@ -94,7 +94,7 @@
                                             <constraint firstAttribute="width" constant="50" id="fb3-KU-ExU"/>
                                             <constraint firstAttribute="height" constant="50" id="xtC-hw-NXh"/>
                                         </constraints>
-                                        <state key="normal" title="2"/>
+                                        <state key="normal" title="2nd"/>
                                         <connections>
                                             <action selector="weekButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XOp-e4-jFp"/>
                                         </connections>
@@ -106,7 +106,7 @@
                                             <constraint firstAttribute="height" constant="50" id="IG3-dD-cDd"/>
                                             <constraint firstAttribute="width" constant="50" id="WaI-3u-4AX"/>
                                         </constraints>
-                                        <state key="normal" title="3"/>
+                                        <state key="normal" title="3rd"/>
                                         <connections>
                                             <action selector="weekButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hlg-Ak-shg"/>
                                         </connections>
@@ -118,15 +118,15 @@
                                             <constraint firstAttribute="height" constant="50" id="0HK-GO-u5F"/>
                                             <constraint firstAttribute="width" constant="50" id="zy2-sN-UWi"/>
                                         </constraints>
-                                        <state key="normal" title="4"/>
+                                        <state key="normal" title="4th"/>
                                         <connections>
                                             <action selector="weekButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5hq-9K-xD1"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="words" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WG4-fR-Nkd">
-                                <rect key="frame" x="66.5" y="422" width="242" height="237"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Report" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WG4-fR-Nkd">
+                                <rect key="frame" x="16" y="422" width="343" height="237"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -183,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="406.5" y="446.5"/>
+            <point key="canvasLocation" x="361.5" y="451.5"/>
         </scene>
     </scenes>
 </document>
